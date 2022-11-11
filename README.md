@@ -57,26 +57,32 @@
 
 ### 데모 영상
 
-<details><summary>사용자 회원가입, 로그인</summary>
+
+<details><summary>홈 & 카테고리별 상품조회</summary>
+
+![](https://velog.velcdn.com/images/roka/post/e7685c47-6c97-4e80-901b-6e398ea4bf45/image.gif)
+
+</details>
+
+
+<details><summary>로그인 & 회원가입 & 토큰인증</summary>
+
+![](https://velog.velcdn.com/images/gyuri092/post/7226d290-93ad-4020-99dd-0370593975ab/image.gif)
+
+</details>
+
+
+<details><summary>회원정보수정 & 회원탈퇴(메이)</summary>
+![](https://velog.velcdn.com/images/bamzzi15/post/536380f7-5294-4d81-b9c1-42b0c1072b99/image.gif)
+회원정보수정
+
+![](https://velog.velcdn.com/images/bamzzi15/post/d932ddef-f712-44a9-a964-218ff322423d/image.gif)
+회원탈퇴
 
 
 </details>
 
-<details><summary>카테고리 추가 및 반영</summary>
 
-추후 관련 영상을 삽입하세요 (하기 2가지 방법 가능)
-1. 화면녹화 -> 유튜브 업로드 -> 유튜브 링크 삽입  
-2. 화면움짤녹화 -> 움짤삽입 (https://www.screentogif.com/ 활용가능)
-   
-</details>
-
-<details><summary>상품 추가 및 반영</summary>
-
-추후 관련 영상을 삽입하세요 (하기 2가지 방법 가능)
-1. 화면녹화 -> 유튜브 업로드 -> 유튜브 링크 삽입  
-2. 화면움짤녹화 -> 움짤삽입 (https://www.screentogif.com/ 활용가능)
-
-</details>
 
 <details><summary>장바구니 기능</summary>
 
@@ -84,32 +90,41 @@
 
 </details>
 
-<details><summary>주문 기능</summary>
 
-추후 관련 영상을 삽입하세요 (하기 2가지 방법 가능)
-1. 화면녹화 -> 유튜브 업로드 -> 유튜브 링크 삽입  
-2. 화면움짤녹화 -> 움짤삽입 (https://www.screentogif.com/ 활용가능)
+<details><summary>즉시구매 & 장바구니구매(맨디)</summary>
 
-</details>
+![](https://velog.velcdn.com/images/gyuri092/post/62572aac-09a3-42ae-9aae-915541128764/image.gif)
 
-<details><summary>관리자 페이지</summary>
-
-추후 관련 영상을 삽입하세요 (하기 2가지 방법 가능)
-1. 화면녹화 -> 유튜브 업로드 -> 유튜브 링크 삽입  
-2. 화면움짤녹화 -> 움짤삽입 (https://www.screentogif.com/ 활용가능)
+![](https://velog.velcdn.com/images/gyuri092/post/2f26730d-5903-4ec9-97a1-6d95bf1ec15b/image.gif)
 
 </details>
 
-<br />
 
-### 페이지 별 화면
+<details><summary>주문내역조회 & 주문정보수정 & 주문취소(메이)</summary>
 
-|  |  |
-| ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------|
-| ![image](https://i.ibb.co/jyxjcd3/image.png) | ![image](https://i.ibb.co/Q860RKz/image.png) |
-|    메인 페이지                                |      회원가입 화면                            |
-| ![image](https://i.ibb.co/RpYN379/image.png) |                                         |
-|    로그인 페이지                              |     앞으로 추가할 페이지                         |
+![](https://velog.velcdn.com/images/bamzzi15/post/615a83df-8b63-476b-8a0f-c71fe8d87f43/image.gif)
+주문조회
+
+
+![](https://velog.velcdn.com/images/bamzzi15/post/2870e56c-3022-4a46-8071-7b455db72cf0/image.gif)
+주문상세조회, 수정, 탈퇴
+
+</details>
+
+
+<details><summary>상품찜하기 & 찜목록조회(메이)</summary>
+
+![](https://velog.velcdn.com/images/bamzzi15/post/c773a054-b27e-46bc-b618-d13eeb059459/image.gif)
+
+</details>
+
+
+<details><summary>관리자(시안)</summary>
+
+
+</details>
+
+
 
 <br />
 
