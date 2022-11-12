@@ -34,7 +34,8 @@
  - https://gaegood.com/
  <div>
 
-<img alt="GAEGOOD 로고" src="/uploads/698b51c434aaec0eeb2cc8900cb4568e/GAEGOOD.PNG">
+![GAEGOOD](https://user-images.githubusercontent.com/59651691/201486542-5f37d229-6e12-4c27-8ae6-4c779c81cd78.PNG)
+
 
 </div>
 
