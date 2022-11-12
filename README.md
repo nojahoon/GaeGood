@@ -60,9 +60,11 @@
 ### 데모 영상
 
 
+
 <details><summary>홈 & 카테고리별 상품조회</summary>
 
-![](https://velog.velcdn.com/images/roka/post/e7685c47-6c97-4e80-901b-6e398ea4bf45/image.gif)
+![image](https://user-images.githubusercontent.com/59651691/201486815-bf901786-ee40-418a-aa15-c34aa021b1bf.gif)
+
 
 </details>
 
@@ -125,6 +127,7 @@
 
 
 </details>
+
 
 
 
