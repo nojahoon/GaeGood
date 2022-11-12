@@ -20,17 +20,18 @@
 ## 서비스 소개
 
 #### 상품 등록, 장바구니 추가, 주문하기 등 쇼핑몰의 핵심 서비스를 구현합니다. 
-1. 회원가입, 로그인, 회원정보 수정 등 **유저 정보 관련 CRUD** 
+1. 회원가입(모달창), 로그인(모달창), 회원정보 수정 등 **유저 정보 관련 CRUD** 
 2. **상품 목록**을 조회 및, **상품 상세 정보**를 조회 가능함. 
 3. 장바구니에 상품을 추가할 수 있으며, **장바구니에서 CRUD** 작업이 가능함.
-4. 장바구니는 서버 DB가 아닌, 프론트 단에서 저장 및 관리됨 (localStorage, indexedDB 등)
+4. 장바구니는 서버 DB가 아닌, 프론트 단에서 저장 및 관리됨 (indexedDB)
 5. 장바구니에서 주문을 진행하며, **주문 완료 후 조회 및 삭제**가 가능함.
-6. 추가 기능 ...
+6. nodemailer gmail을 활용한 임시패스워드 발급 기능구현
+
 
 <br />
 
 ## 데모 사이트
- - http://gaegood.com/
+ - https://gaegood.com/
  <div>
 
 <img alt="GAEGOOD 로고" src="/uploads/698b51c434aaec0eeb2cc8900cb4568e/GAEGOOD.PNG">
@@ -72,7 +73,7 @@
 </details>
 
 
-<details><summary>회원정보수정 & 회원탈퇴(메이)</summary>
+<details><summary>회원정보수정 & 회원탈퇴</summary>
 ![](https://velog.velcdn.com/images/bamzzi15/post/536380f7-5294-4d81-b9c1-42b0c1072b99/image.gif)
 회원정보수정
 
@@ -91,7 +92,7 @@
 </details>
 
 
-<details><summary>즉시구매 & 장바구니구매(맨디)</summary>
+<details><summary>즉시구매 & 장바구니구매</summary>
 
 ![](https://velog.velcdn.com/images/gyuri092/post/62572aac-09a3-42ae-9aae-915541128764/image.gif)
 
@@ -100,7 +101,7 @@
 </details>
 
 
-<details><summary>주문내역조회 & 주문정보수정 & 주문취소(메이)</summary>
+<details><summary>주문내역조회 & 주문정보수정 & 주문취소</summary>
 
 ![](https://velog.velcdn.com/images/bamzzi15/post/615a83df-8b63-476b-8a0f-c71fe8d87f43/image.gif)
 주문조회
@@ -112,14 +113,14 @@
 </details>
 
 
-<details><summary>상품찜하기 & 찜목록조회(메이)</summary>
+<details><summary>상품찜하기 & 찜목록조회</summary>
 
 ![](https://velog.velcdn.com/images/bamzzi15/post/c773a054-b27e-46bc-b618-d13eeb059459/image.gif)
 
 </details>
 
 
-<details><summary>관리자(시안)</summary>
+<details><summary>관리자</summary>
 
 
 </details>
@@ -127,30 +128,6 @@
 
 
 <br />
-
-
-### 프론트엔드
-
-- **Vanilla javascript**, html, css (**Bootstrap css**)
-- Font-awesome 
-- Daum 도로명 주소 api 
-- 이외
-
-### 백엔드 
-
-- **Express** (nodemon, babel-node로 실행됩니다.)
-- Mongodb, Mongoose
-- cors
-- 이외
-
-
-### 폴더 구조
-- 프론트: `src/views` 폴더 
-- 백: src/views 이외 폴더 전체
-- 실행: **프론트, 백 동시에, express로 실행**
-
-<br />
-
 
 ## 👪 구성원 역할
 <br />
@@ -162,6 +139,40 @@
 |  :snowman: HUNI(재훈)   |  BE   |
 |  :penguin: SIAN(시안)   |  FE   |
 |  :leopard: PEPE(종훈)   |  BE   |
+
+
+### 프론트엔드
+
+- **Vanilla javascript**, html, css (**Bootstrap css**)
+- Font-awesome 
+- Daum 도로명 주소 api 
+- SIAN(시안)
+  + 관리자페이지 화면구성(상품관리,유저관리,주문관리) , 로그인 모달화면 구성
+- May(민영)
+  + 마이페이지 화면구성(회원정보수정, 주문목록, 찜목록, 회원탈퇴,주문생성)
+- Mandy(규리)
+  + 장바구니 구현,상품상세페이지 화면구성 (indexedDB)
+
+### 백엔드 
+
+- **Express** (nodemon, babel-node로 실행됩니다.)
+- Mongodb, Mongoose
+- cors
+- PEPE(종훈)
+  + Product, Order, Category 스키마 설계 및 API 구현, 로그인 여부, 접근 권한, 입력 값 등을 체크하는 미들웨어 구현, 이미지 업로드 미들웨어 구현
+- HUNI(재훈)
+  +  Auth : nodemailer 활용한 gmail 임시패스워드 발송, verifyToken ,bcrypt 활용한 해싱작업,JWT token cookie 인증방식 및 로그인,로그아웃 로직 설계 
+  + User : CRUD 작성
+  + 배포: pm2 활용한 무중단 배포, nginx 활용한 reverse proxy 적용, google domain 설정, ssl letsencrypt적용
+
+
+### 폴더 구조
+- 프론트: `src/views` 폴더 
+- 백: src/views 이외 폴더 전체
+- 실행: **프론트, 백 동시에, express로 실행**
+
+<br />
+
 
 ## Collaboration Tools
 
